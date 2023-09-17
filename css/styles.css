@@ -42,6 +42,14 @@ a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+.logolink {
+  color: #f4f4fd;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
 header {
   background: var(--WHITE, #fff);
 }
