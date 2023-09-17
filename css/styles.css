@@ -18,7 +18,7 @@ a:focus {
 a {
   text-decoration: none;
 }
-nav > li {
+.headerlink {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -63,18 +63,24 @@ header {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
 }
 .orderbutton {
   cursor: pointer;
   background: var(--IRIS, #4d5ae5);
   color: var(--WHITE, #fff);
-  font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;}
-.orderbutton:hover {background-color: #404BBF;}
-.orderbutton:focus {background-color: #404BBF;}
+  letter-spacing: 0.64px;
+}
+.orderbutton:hover {
+  background-color: #404bbf;
+}
+.orderbutton:focus {
+  background-color: #404bbf;
+}
 .strategyheader {
   color: var(--NAVY-BLUE, #2e2f42);
 
@@ -96,6 +102,7 @@ header {
 }
 .sectiontitle {
   color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
 
   font-size: 36px;
   font-weight: 700;
@@ -124,8 +131,9 @@ header {
 .portfolio {
   background: #fff;
 }
-.portfolio h2 {
+.portfoliomainheader {
   color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
 
   font-size: 36px;
   font-weight: 700;
@@ -152,12 +160,15 @@ header {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.footer {background: var(--NAVY-BLUE, #2E2F42);}
-.footerparagraf {color: var(--CLOUD, #F4F4FD);
+.footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.footerparagraf {
+  color: var(--CLOUD, #f4f4fd);
 
-
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.32px;}
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
