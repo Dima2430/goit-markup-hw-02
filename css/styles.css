@@ -34,15 +34,18 @@ ul {
   color: #2e2f42;
 }
 .logolink:hover,
-.web:hover {
+.web:hover,
+.logo:hover {
   color: #404bbf;
 }
 .logolink:active,
-.web:active {
+.web:active,
+.logo:active {
   color: #404bbf;
 }
 .logolink:focus,
-.web:focus {
+.web:focus,
+.logo:focus {
   color: #404bbf;
 }
 
